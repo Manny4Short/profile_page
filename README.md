@@ -1,2 +1,2 @@
 # profile_page
-# this is a page that displays some details about my profile.
+# This is a profile page that displays some details.
