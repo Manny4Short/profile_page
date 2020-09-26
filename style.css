@@ -1,0 +1,65 @@
+*{
+    margin-top: 0px;
+}
+
+h2{
+    background-color:  rgb(128, 122, 113);
+    color: white;
+    padding: 4px;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.main-div{    
+    /* white-space: nowrap; */
+    flex-wrap: wrap;
+    overflow: none;   
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.no-bullet > li {
+    list-style-type: none;
+    margin-left: 0px;
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(78, 105, 78);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.card2 {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align:center;
+    padding: 150px;  
+    margin-left: 50px;
+    height: 200px;
+    width: 450px;
+    margin-top: 10px;
+    
+}
